@@ -10,3 +10,4 @@ const getInputValue = ({ currentTarget }) => {
     nameRef.textContent = 'Anonymous';
   }
 };
+inputRef.addEventListener('input', getInputValue);
